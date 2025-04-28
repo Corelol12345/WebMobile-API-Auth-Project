@@ -5,7 +5,7 @@ O projeto foi criado como parte de um estudo universitário para entender os con
 
 ---
 
-## 🔥 Funcionalidades
+## Funcionalidades
 
 - Página de **Login** para acesso ao sistema.
 - Página de **Cadastro** para criação de nova conta.
@@ -14,7 +14,7 @@ O projeto foi criado como parte de um estudo universitário para entender os con
 - 
 ---
 
-## 🎯 Objetivo do Projeto
+## Objetivo do Projeto
 
 Desenvolver a estrutura inicial de um sistema de autenticação simples, focando em:
 
@@ -25,7 +25,7 @@ Desenvolver a estrutura inicial de um sistema de autenticação simples, focando
 
 ---
 
-## 📸 Imagens do Protótipo
+## Imagens do Protótipo
 
 `/login`
 
