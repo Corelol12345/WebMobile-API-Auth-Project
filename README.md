@@ -27,7 +27,15 @@ Desenvolver a estrutura inicial de um sistema de autenticação simples, focando
 
 ## 📸 Imagens do Protótipo
 
-> *Adicionar imagens aqui futuramente, após o deploy ou captura de telas.*
+/login
+![image](https://github.com/user-attachments/assets/937ffd82-2a13-4a09-b52a-e2f08290d863)
+
+/register
+![image](https://github.com/user-attachments/assets/a599aafc-8277-4d0a-8dc8-87be3f146472)
+
+/dashboard
+![image](https://github.com/user-attachments/assets/a334dc68-4e8f-48d2-a798-92a0ae25f7ac)
+
 
 ---
 
