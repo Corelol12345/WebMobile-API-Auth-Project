@@ -11,7 +11,7 @@ O projeto foi criado como parte do projeto de Web Mobile, estamos usando ele par
 - Página de **Cadastro** para criação de nova conta.
 - Página de **Dashboard** protegida, acessível apenas após login.
 - Simulação de autenticação utilizando **LocalStorage**.
-- 
+  
 ---
 
 ## Objetivo do Projeto
