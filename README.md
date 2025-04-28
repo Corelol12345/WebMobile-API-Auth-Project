@@ -1,7 +1,7 @@
 # Projeto de Autenticação de Usuários (Versão 1.0)
 
 Este é um protótipo de sistema de autenticação de usuários desenvolvido utilizando **Next.js**.  
-O projeto foi criado como parte de um estudo universitário para entender os conceitos básicos de login, cadastro e controle de sessão de forma simples e prática.
+O projeto foi criado como parte do projeto de Web Mobile, estamos usando ele para entender os conceitos básicos de login, cadastro e controle de sessão de forma simples e prática.
 
 ---
 
