@@ -11,8 +11,7 @@ O projeto foi criado como parte de um estudo universitário para entender os con
 - Página de **Cadastro** para criação de nova conta.
 - Página de **Dashboard** protegida, acessível apenas após login.
 - Simulação de autenticação utilizando **LocalStorage**.
-- Opção de login
-
+- 
 ---
 
 ## 🎯 Objetivo do Projeto
