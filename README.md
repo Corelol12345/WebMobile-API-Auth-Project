@@ -3,48 +3,25 @@
 Este é um protótipo de sistema de autenticação de usuários desenvolvido utilizando **Next.js**.  
 O projeto foi criado como parte do projeto de Web Mobile, estamos usando ele para entender os conceitos básicos de login, cadastro e controle de sessão de forma simples e prática.
 
----
+# 📋 Projeto de Autenticação com Next.js e Microsoft Graph
 
-## Funcionalidades
+## 🌟 Visão Geral
+Sistema de autenticação integrado com Microsoft Entra ID (Azure AD) desenvolvido com Next.js 15, utilizando:
+- App Router para gerenciamento de rotas
+- Microsoft Graph API para gestão de usuários
+- Armazenamento seguro de credenciais
 
-- Página de **Login** para acesso ao sistema.
-- Página de **Cadastro** para criação de nova conta.
-- Página de **Dashboard** protegida, acessível apenas após login.
-- Simulação de autenticação utilizando **LocalStorage**.
-  
----
+## 🛠️ Stack Tecnológica
+| Tecnologia       | Descrição                                  |
+|------------------|-------------------------------------------|
+| Next.js 15       | Framework React com SSR e rotas API        |
+| Microsoft Graph  | API para integração com Azure AD           |
+| CSS Modules      | Estilização componentizada                |
+| Azure AD         | Autenticação empresarial                  |
 
-## Objetivo do Projeto
+## 🚀 Como Executar
 
-Desenvolver a estrutura inicial de um sistema de autenticação simples, focando em:
-
-- Fluxo básico de login e logout.
-- Armazenamento temporário de dados de usuário para fins de demonstração.
-- Criação de páginas separadas utilizando o roteamento do Next.js (`/login`, `/register`, `/dashboard`).
-- Organização de componentes e estilização com **CSS puro**.
-
----
-
-## Imagens do Protótipo
-
-`/login`
-
-![image](https://github.com/user-attachments/assets/937ffd82-2a13-4a09-b52a-e2f08290d863)
-
-`/register`
-
-![image](https://github.com/user-attachments/assets/a599aafc-8277-4d0a-8dc8-87be3f146472)
-
-`/dashboard`
-
-![image](https://github.com/user-attachments/assets/a334dc68-4e8f-48d2-a798-92a0ae25f7ac)
-
-
----
-
-## ⚙️ Tecnologias Utilizadas
-
-- [Next.js](https://nextjs.org/)
-- [React](https://react.dev/)
-- CSS Puro (sem Tailwind ou bibliotecas externas)
-- LocalStorage (armazenamento local do navegador)
+### Pré-requisitos
+- Node.js 18+
+- Conta Azure ativa
+- Aplicativo registrado no Azure AD
