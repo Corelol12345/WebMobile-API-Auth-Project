@@ -19,9 +19,3 @@ Sistema de autenticação integrado com Microsoft Entra ID (Azure AD) desenvolvi
 | CSS Modules      | Estilização                                |
 | Azure AD         | Autenticação                               |
 
-## Como Executar
-
-### Pré-requisitos
-- Node.js 18+
-- Conta Azure ativa
-- Aplicativo registrado no Azure AD
