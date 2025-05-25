@@ -1,4 +1,3 @@
-// src/app/dashboard/hooks/useAuth.js
 'use client'
 
 import { useEffect } from 'react'
