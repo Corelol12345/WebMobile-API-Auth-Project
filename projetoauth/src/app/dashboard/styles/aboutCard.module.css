@@ -1,0 +1,47 @@
+.cardDashboard {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
+  
+.cardDashboard h3 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1rem; 
+}
+  
+.cardDashboard p {
+    color: #666;
+    line-height: 1.6;
+    font-size: 0.9rem;
+}
+
+@media (min-width: 768px) {
+    .cardDashboard {
+        padding: 1.5rem;
+    }
+
+    .cardDashboard h3 {
+        font-size: 1.2rem;
+    }
+
+    .cardDashboard p {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .cardDashboard {
+        padding: 2rem;
+    }
+
+    .cardDashboard h3 {
+        font-size: 1.4rem;
+    }
+
+    .cardDashboard p {
+        font-size: 1.1rem;
+    }
+}

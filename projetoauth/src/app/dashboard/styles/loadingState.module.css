@@ -1,0 +1,44 @@
+.estadoCarregamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1rem;
+    min-height: 150px;
+    text-align: center;
+}
+  
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@media (max-width: 480px) {
+    .estadoCarregamento {
+        padding: 1.5rem 0.5rem;
+    }
+
+    .loader {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (min-width: 768px) {
+    .loader {
+        width: 50px;
+        height: 50px;
+        margin-top: 2rem;
+    }
+}

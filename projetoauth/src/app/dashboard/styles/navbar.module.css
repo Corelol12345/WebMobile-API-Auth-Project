@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #1e40af;
+    color: white;
+    flex-wrap: wrap;
+}
+  
+.logo h1 {
+    margin: 0;
+    font-size: 1.3rem;
+    white-space: nowrap;
+}
+  
+.areaBotoes {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 0;
+}
+  
+.botaoSair {
+    padding: 0.4rem 0.8rem;
+    background-color: #ef4444;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 0.9rem;
+}
+  
+.botaoSair:hover {
+    background-color: #dc2626;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        padding: 1rem 2rem;
+        flex-wrap: nowrap;
+    }
+
+    .logo h1 {
+        font-size: 1.5rem;
+    }
+
+    .areaBotoes {
+        gap: 1rem;
+    }
+
+    .botaoSair {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar {
+        padding: 1.2rem 3rem;
+    }
+
+    .logo h1 {
+        font-size: 1.8rem;
+    }
+}
