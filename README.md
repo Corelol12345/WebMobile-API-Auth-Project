@@ -1,21 +1,25 @@
-# Projeto de Autenticação de Usuários (Versão 2.0)
+# Dashboard Administrativo
 
-Este é um protótipo de sistema de autenticação de usuários desenvolvido utilizando **Next.js**.  
-O projeto foi criado como parte do projeto de Web Mobile, estamos usando ele para entender os conceitos básicos de login, cadastro e controle de sessão de forma simples e prática.
+---
 
-#  Projeto de Autenticação com Next.js e Microsoft Graph
+Este projeto é um dashboard administrativo construído com **Next.js** e estilizado usando **Módulos CSS** para garantir uma interface de usuário responsiva e modular. Ele foi desenvolvido para apresentar informações de forma clara e interativa, adaptando-se a diferentes tamanhos de tela.
 
-##  Visão Geral
-Sistema de autenticação integrado com Microsoft Entra ID (Azure AD) desenvolvido com Next.js 15, utilizando:
-- App Router para gerenciamento de rotas
-- Microsoft Graph API para gestão de usuários
-- Armazenamento seguro de credenciais
+---
 
-## Stack Tecnológica
-| Tecnologia       | Descrição                                  |
-|------------------|-------------------------------------------|
-| Next.js 15       | Framework React com SSR e rotas API        |
-| Microsoft Graph  | API para integração com Azure AD           |
-| CSS Modules      | Estilização                                |
-| Azure AD         | Autenticação                               |
+## 🚀 Tecnologias Utilizadas
 
+* **Next.js**: Framework React para renderização do lado do servidor e geração de sites estáticos.
+* **React**: Biblioteca JavaScript para construção de interfaces de usuário.
+* **Módulos CSS**: Para encapsular estilos e evitar conflitos de nomeação, garantindo que o CSS seja modular e de fácil manutenção.
+* **CSS Responsivo**: Implementado com **Media Queries**, **Flexbox** e **CSS Grid** para uma experiência otimizada em dispositivos móveis, tablets e desktops.
+
+---
+
+## ✨ Funcionalidades Principais
+
+* **Navegação Responsiva**: Uma barra de navegação adaptável que se ajusta a diferentes larguras de tela.
+* **Cards Informativos**: Componentes de card para exibir informações relevantes (ex: informações "Sobre", detalhes de membros do projeto, etc.).
+* **Tabela de Usuários Responsiva**: Uma tabela que exibe dados de usuários, com rolagem horizontal para facilitar a visualização em telas menores.
+* **Feedback de Carregamento**: Um indicador visual para estados de carregamento.
+* **Tratamento de Erros**: Mensagens de erro claras com opção de tentar novamente.
+* **Seção de Boas-Vindas**: Uma área de destaque para saudar o usuário.
